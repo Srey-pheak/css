@@ -1,0 +1,139 @@
+body{
+  text-align: center;
+  margin: 0;
+  color: #40514E;
+}
+h1{
+  font-size: 90px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Sriracha', cursive;
+  color: #66BFBF;
+}
+
+.top-container{
+  background-color: #ffffdd;
+  padding-top:100px;
+  position: relative;
+}
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.bottom-cloud{
+  position:absolute;
+  left:300px;
+  bottom:300px;
+}
+.profiles{
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  text-align: center;
+}
+.computer{
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  padding-right: 10px;
+}
+.network{
+  width: 25%;
+  border-radius: 100%;
+  float: right;
+}
+a{
+color: #11999E;
+}
+a:hover{
+  color: #EAF6F6;
+}
+h3{
+  font-family: 'Sriracha', cursive;
+  color: #11999E;
+}
+.subtitle{
+  font-weight: normal;
+}
+.skill-row{
+  margin:50px auto 50px auto;
+  width: 50%;
+  text-align: left;
+  padding-top: 20px;
+
+}
+.sktext{
+  text-align: left;
+  line-height: 1.5;
+}
+.bottom-container{
+  margin: 16px;
+  text-align: center;
+  height: 100px;
+  background-color: #66BFBF;
+  padding-top: 50px;
+}
+.footer-link{
+  margin: 100px auto;
+  padding-right: 20px;
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: none;
+
+}
+hr{
+
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+    color: grey;
+
+
+}
+.pheak{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 30%;
+}
+.message{
+  width: 30%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.btn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #18bff7 5%, #019ad2 100%);
+	background-color:#7892c2;
+	border-radius:14px;
+	border:2px solid #4e6096;
+	display:inline-block;
+  color:#ffffff;
+	cursor:pointer;
+	font-family: 'Kaushan Script', cursive;
+	font-family:Verdana;
+	font-size:19px;
+	font-weight:bold;
+	font-style:italic;
+	padding:10px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.last{
+  color: white;
+  font-size: 0.75rem;
+}
